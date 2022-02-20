@@ -964,6 +964,20 @@
         "runtime": {
           "lib/netstandard1.1/xunit.execution.dotnet.dll": {}
         }
+      },
+      "RCorpFoodPricer/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v6.0",
+        "dependencies": {
+          "NFluent": "3.0.0-alpha-0002",
+          "xunit": "2.4.2-pre.12"
+        },
+        "compile": {
+          "bin/placeholder/RCorpFoodPricer.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/RCorpFoodPricer.dll": {}
+        }
       }
     }
   },
@@ -4056,6 +4070,11 @@
         "xunit.extensibility.execution.2.4.2-pre.12.nupkg.sha512",
         "xunit.extensibility.execution.nuspec"
       ]
+    },
+    "RCorpFoodPricer/1.0.0": {
+      "type": "project",
+      "path": "../RCorpFoodPricer/RCorpFoodPricer.csproj",
+      "msbuildProject": "../RCorpFoodPricer/RCorpFoodPricer.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -4064,6 +4083,7 @@
       "NFluent >= 3.0.0-alpha-0002",
       "NUnit >= 3.13.2",
       "NUnit3TestAdapter >= 4.0.0",
+      "RCorpFoodPricer >= 1.0.0",
       "coverlet.collector >= 3.1.0",
       "xunit >= 2.4.2-pre.12"
     ]
@@ -4092,7 +4112,11 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "/Users/ingrachen/RiderProjects/RCorpFoodPricer/RCorpFoodPricer/RCorpFoodPricer.csproj": {
+              "projectPath": "/Users/ingrachen/RiderProjects/RCorpFoodPricer/RCorpFoodPricer/RCorpFoodPricer.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

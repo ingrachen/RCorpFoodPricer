@@ -1,0 +1,6 @@
+﻿<wpf:ResourceDictionary xml:space="preserve" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib" xmlns:ss="urn:shemas-jetbrains-com:settings-storage-xaml" xmlns:wpf="http://schemas.microsoft.com/winfx/2006/xaml/presentation">
+	<s:String x:Key="/Default/Environment/UnitTesting/UnitTestSessionStore/Sessions/=758515d4_002Dbb5f_002D4039_002D8905_002D80219369b765/@EntryIndexedValue">&lt;SessionState ContinuousTestingMode="0" IsActive="True" Name="SampleData_on_plus_on_numbers_txt" xmlns="urn:schemas-jetbrains-com:jetbrains-ut-session"&gt;
+  &lt;TestAncestor&gt;
+    &lt;TestId&gt;xUnit::6E74E86A-533E-4894-8B44-CC7B9C9FFE44::net6.0::RCorpFoodPricerTest.Tests.SampleData_on_plus_on_numbers_txt&lt;/TestId&gt;
+  &lt;/TestAncestor&gt;
+&lt;/SessionState&gt;</s:String></wpf:ResourceDictionary>
